@@ -94,13 +94,5 @@ class App {
 
 const CountryList = new App()
 
-declare global {
-  interface Window {
-    CountryList: App
-  }
-}
-
-window.CountryList = CountryList
-
 export default CountryList
 export { Country, FilterOption }
